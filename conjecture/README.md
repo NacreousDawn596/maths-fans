@@ -26,5 +26,7 @@ on choisi par exemple le nombre 7
 2/2 = 1
 ```
 
+<img src="./pic.png" alt="graph"></img>
+
 # la question est:
 <center><h5>est-ce qu'il y a un nombre qui ne donnera jamais 1?</h5></center>
