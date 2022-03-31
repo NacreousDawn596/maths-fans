@@ -1,8 +1,12 @@
 # la theorie de Conway
 la theorie inventée par <a href="https://fr.wikipedia.org/wiki/John_Horton_Conway">John Conway</a> qui consiste à "écrire ce qu'on lis" 
+
 genre il y a le chiffre 1, on lit "un un" puis on écrit 11
-après on le lit "un 11", et on écrit "21"
+
+après on le lit "11", et on écrit "21"
+
 "21" se lit "un deux un un" et on écrit "1211"
+
 ...
 
 # exemples:
