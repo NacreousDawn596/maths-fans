@@ -10,6 +10,9 @@ def solutions(delta, a, b, c):
     else:
         return {"S": ["this equation doesn't have any solution :/", '', '']}
 
+def canonique(a, b, c=0):
+        return f"{b / a}(x² - ({b / a}x)) + {c}"
+
 try:
     a = float(os.popen(f'python3 -c "from math import *; print({input("a: ")})"').read())
     b = float(os.popen(f'python3 -c "from math import *; print({input("b: ")})"').read())
@@ -24,6 +27,8 @@ print("delta: ", float(pow(b, 2) - 4*a*c))
 idk = solutions(float(pow(b, 2) - 4*a*c), float(a), float(b), float(c))
 
 print(idk)
+
+print("forme canonique: ", canonique(a, b, c))
 
 if (len(idk['S']) == 2):
     print(f"factorisation: {a}(x - ({idk['S'][0]}))(x - ({idk['S'][1]}))")
